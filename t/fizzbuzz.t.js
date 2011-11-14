@@ -1,5 +1,5 @@
 plan(5);
-load('fizzbuzz.js');
+load('lib/fizzbuzz.js');
     test('fizzbuzz()', function() {
         ok( fizzbuzz(3) == "fizz", " 3 divide by 3 and return fizz" );
         ok( fizzbuzz(-3) == "fizz", " -3 is Negative number, divide by 3 and return fizz" );
